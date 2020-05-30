@@ -24,6 +24,8 @@ h1 {
   font-family: "Lato", sans-serif;
   padding: 25px;
   margin: 20px;
+  font-size: 300%;
+  background-color:#FBA100; 
 }
 
 h2 {
