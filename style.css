@@ -18,7 +18,21 @@ h1 {
   color: white;
 }
 
-#stretches{
+#stretches1 {
+  text-align: center;
+  height: 200px;
+  width: 50%;
+  background-color: #FBA100;
+}
+
+#stretches2 {
+  text-align: center;
+  height: 200px;
+  width: 50%;
+  background-color: #FBA100;
+}
+
+#stretches3 {
   text-align: center;
   height: 200px;
   width: 50%;
