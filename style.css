@@ -17,10 +17,11 @@ h1 {
   color: white;
 }
 
-div {
+#stretches{
+  text-align: center;
   height: 200px;
   width: 50%;
-  background-color: #;
+  background-color: #FBA100;
 }
 
 /* For background Aqua #6BBAA7 
