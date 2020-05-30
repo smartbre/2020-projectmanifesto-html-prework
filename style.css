@@ -22,11 +22,15 @@ img {
 
 h1 {
   font-family: "Lato", sans-serif;
-  color: white;
   padding: 25px;
   margin: 20px;
 }
 
+h2 {
+  font-family: "Lato", sans-serif;
+  padding: 25px;
+  margin: 20px;
+}
 /* For background Aqua #6BBAA7 */
 /* For buttons Sunshine #FBA100 */
 /* For border Lavender #6C648B*/
