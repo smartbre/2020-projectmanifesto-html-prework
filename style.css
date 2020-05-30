@@ -2,22 +2,23 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400;1,700;1,800&display=swap");
 
-.center{
+.center {
   margin: auto;
   padding: 25px;
   margin: 40px;
 }
 
-.info{
+.info {
   margin: auto;
   padding: 25px;
   margin: 40px;
 }
+
 body {
-  text-align:center;
+  text-align: center;
   font-family: "Merriweather Sans", sans-serif;
   color: white;
-  background-color:#6BBAA7; 
+  background-color: #6BBAA7;
   font-size: 150%;
 }
 
@@ -25,7 +26,8 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  style="width:500px;height:600px;"
+  width: 700px;
+  height: 500px;
 }
 
 h1 {
@@ -33,7 +35,7 @@ h1 {
   padding: 25px;
   margin: 20px;
   font-size: 300%;
-  background-color:#FBA100; 
+  background-color: #FBA100;
 }
 
 h2 {
@@ -42,7 +44,6 @@ h2 {
   padding: 25px;
   margin: 20px;
 }
-
 
 /* For background Aqua #6BBAA7 */
 /* For buttons Sunshine #FBA100 */
