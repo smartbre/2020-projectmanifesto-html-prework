@@ -7,7 +7,7 @@ body {
   background-color: #6BBAA7;
   font-family: 'Merriweather Sans', sans-serif;
   color: white;
-  
+  al
   padding: 25px;
   margin: 20px;
 }
@@ -16,28 +16,10 @@ h1 {
  
   font-family: 'Lato', sans-serif;
   color: white;
+  padding: 25px;
+  margin: 20px;
 }
 
-#stretches1 {
-  text-align: center;
-  height: 200px;
-  width: 50%;
-  background-color: #FBA100;
-}
-
-#stretches2 {
-  text-align: center;
-  height: 200px;
-  width: 50%;
-  background-color: #FBA100;
-}
-
-#stretches3 {
-  text-align: center;
-  height: 200px;
-  width: 50%;
-  background-color: #FBA100;
-}
 
 /* For background Aqua #6BBAA7 
 /* For buttons Sunshine #FBA100 
