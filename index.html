@@ -24,22 +24,10 @@
     <div class="container-fluid">
       <!-- spacing using Margin & Jumbotron      -->
 
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4">Spacing and Layout</h1>
-          <p class="lead">
-            The entire page is contained within one div container. The body is
-            set to have a 25px margin all around. This information is inside a
-            modified jumbotron component that occupies the entire horizontal
-            space.
-          </p>
-        </div>
-      </div>
-
       <!--  h tags   -->
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h1 class="display-4">Modifing Sizes: h1-h6 tags</h1>
+          <h1 class="display-4">Modifing Text Sizes: h1-h6 tags</h1>
           <p class="lead">
             Headings have been adjusted h1-h6 tags to adjust header and
             subheader sizes.
@@ -54,7 +42,7 @@
       <!--  display classes   -->
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h1 class="display-4">Modifing Sizes: Display Classes</h1>
+          <h1 class="display-4">Modifing Text Sizes: Display Classes</h1>
           <p class="lead">
             This is a modified jumbotron that occupies the entire horizontal
             space of its parent. The elements can be adjusted by modifying the
@@ -83,7 +71,7 @@
           </h1>
           <p class="lead">
             Information can pop using constrasting (especially with colors).
-            Below uses the badges component.
+            Below uses the badges component set to secondary.
           </p>
 
           <h1 class="display-4">
@@ -94,56 +82,75 @@
         </div>
       </div>
 
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Modifying Look: White Space</h1>
+          <p class="lead">
+            The entire page is contained within one div container. The body is
+            set to have a 25px margin all around and 25px padding on the sides.
+            This information is inside a modified jumbotron component that
+            occupies the entire horizontal space.
+          </p>
+        </div>
+      </div>
+
       <!--  display tags + contrasting  -->
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
           <h1 class="display-4">
-            Modifing Look: Divs, Rows, Columns
+            Modifing Layout Look: Divs, Rows, Columns
           </h1>
           <p class="lead">
-            Information can be better organized using divs, rows, and columns. 
+            Information can be better organized using divs, rows, and columns.
+            The information below is inside two cards all within one row. Each
+            card that at set to each take up half the size of a screen.
           </p>
 
-          
-<div class="row">
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">
+                    With supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">
+                    With supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script
+          src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+          integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+          crossorigin="anonymous"
+        ></script>
+        <script
+          src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+          integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+          crossorigin="anonymous"
+        ></script>
+        <script
+          src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+          integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+          crossorigin="anonymous"
+        ></script>
       </div>
-    </div>
-  </div>
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </div>
-</div>
-      </div>
-      <!-- Optional JavaScript -->
-      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-      <script
-        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"
-      ></script>
-      <script
-        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"
-      ></script>
-      <script
-        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"
-      ></script>
-    </div>
     </div>
   </body>
 </html>
